@@ -168,5 +168,7 @@ myproject
 
 # TODOS
 
-[] implement MVC
-[] run tests on the flask web app, but how do i do tests
+- [ ] use OOP
+- [ ] implement MVC
+- [ ] run tests on the flask web app, but how do i do tests
+- [ ] scale vertically
