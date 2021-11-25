@@ -3,7 +3,7 @@
 this is a python flask web app that uses SQL and OOP
 
 technologies:
-- SQL/MySQL (databases)
+- SQL/SQLAlchemy (databases)
 - Python (for writing the app with flask)
 - Flask library for creating a web app with routes
 - OOP (object oriented programming)
@@ -13,9 +13,9 @@ technologies:
 - MVC (Model View Controller, we are using flask with MVC)
 
 normally i should use:
-- C#
+- C# + ASP.NET
 
-but right now i dont know C# and NVC, so in order to deliver something good rather than not delivering something at all I should use what I know at the moment and later I will learn C# and NVC
+but right now i dont know C#, so in order to deliver something good rather than not delivering something at all I should use what I know at the moment and later I will learn C# ASP.NET
 
 Deadline: `48 hours`
 
@@ -26,12 +26,18 @@ requirements as a final result:
 - implement an MVC (model view controller)
 
 
-# to debug the application
+# to run the application in dev mode and debug mode
 run in your favorite shell
 ```shell
+git clone https://github.com/alexzanderr/integrisoft-project
+
+cd integrisoft-project
+
 export FLASK_APP=run.py
 export FLASK_ENV=development
 export FLASK_DEBUG=1
+
+flask run --port=$custom_port
 ```
 
 # recommended project tree structure
@@ -163,4 +169,5 @@ myproject
 # TODOS
 
 [ ] implement MVC
+
 [ ] run tests on the flask web app, but how do i do tests
