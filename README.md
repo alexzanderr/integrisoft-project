@@ -168,6 +168,5 @@ myproject
 
 # TODOS
 
-[ ] implement MVC
-
-[ ] run tests on the flask web app, but how do i do tests
+[] implement MVC
+[] run tests on the flask web app, but how do i do tests
